@@ -29,7 +29,7 @@ const starMemories: StarMemory[] = [
   {
     id: 1,
     title: 'That Cute Smile 🩷',
-    caption: 'Your smile deserves to stay forever.',
+    caption: 'Your smile deserves to stay forever, because somewhere along the way… it became my favorite place to find happiness. ✨❤️',
     image: '/assets/memory_1.png',
     label: 'Cutie Smile',
     x: 14,
@@ -40,7 +40,7 @@ const starMemories: StarMemory[] = [
   {
     id: 2,
     title: 'Little Sunshine ☀️',
-    caption: 'Some people carry happiness without knowing.',
+    caption: 'Some people carry happiness without knowing, and you unknowingly became the place where my heart feels safest. ✨❤️',
     image: '/assets/memory_2.png',
     label: 'Sunshine Girl',
     x: 28,
@@ -51,7 +51,7 @@ const starMemories: StarMemory[] = [
   {
     id: 3,
     title: 'Princess Moment 👑',
-    caption: 'This photo looks like happiness in human form.',
+    caption: 'This photo looks like happiness in human form, carrying the smile that quietly became my favorite part of every day. ✨❤️',
     image: '/assets/memory_3.png',
     label: 'Pretty Princess',
     x: 62,
@@ -62,7 +62,7 @@ const starMemories: StarMemory[] = [
   {
     id: 4,
     title: 'Butterfly Energy 🦋',
-    caption: 'Cute, soft and impossible not to notice.',
+    caption: 'This photo looks like happiness in human form, carrying a smile that makes everything feel brighter. ✨💖',
     image: '/assets/memory_4.png',
     label: 'Butterfly Girl',
     x: 78,
@@ -73,7 +73,7 @@ const starMemories: StarMemory[] = [
   {
     id: 5,
     title: 'Moonlight Beauty 🌙',
-    caption: 'Even stars would pause for this smile.',
+    caption: 'Even stars would pause for this smile, but my heart stayed… because it found something worth loving forever. ✨❤️',
     image: '/assets/memory_5.png',
     label: 'Moonlight',
     x: 48,
@@ -84,7 +84,7 @@ const starMemories: StarMemory[] = [
   {
     id: 6,
     title: 'Pikachu Energy ⚡',
-    caption: 'Tiny smile. Huge happiness.',
+    caption: 'Tiny smile. Huge happiness… and somewhere between those smiles, my heart quietly chose you forever. ✨❤️',
     image: '/assets/memory_6.png',
     label: 'Cute Spark',
     x: 18,
@@ -95,7 +95,7 @@ const starMemories: StarMemory[] = [
   {
     id: 7,
     title: 'Birthday Angel 🎂✨',
-    caption: 'May your smile stay forever and your heart stay light ❤️',
+    caption: 'May your smile stay forever, and your heart stay light… because if I ever prayed for something, it would always be your happiness. ❤️✨',
     image: '/assets/memory_7.png',
     label: 'Special Girl',
     x: 82,
@@ -339,13 +339,13 @@ export const MemoryTimeline: React.FC = () => {
       <div className="relative z-10 flex flex-col items-center gap-10">
         <div className="text-center max-w-3xl mx-auto">
           <p className="font-sans-clean text-[11px] md:text-xs tracking-[0.32em] uppercase text-pink-soft/70 mb-4">
-            Hidden Star Memories
+            Hidden Memories
           </p>
           <h2 className="font-serif-elegant text-3xl md:text-5xl text-white font-light uppercase tracking-[0.18em] gold-glow-text leading-tight">
-            Explore the star gallery
+            Explore the gallery
           </h2>
           <p className="mt-5 text-sm md:text-base text-white/70 max-w-2xl mx-auto leading-relaxed">
-            Each star keeps a secret moment. Tap or hover to watch a hidden memory bloom into glassmorphism light.
+            Each circle keeps a secret moment. Tap or hover to watch a hidden memory bloom into glassmorphism light.
           </p>
         </div>
 
@@ -533,9 +533,7 @@ export const MemoryTimeline: React.FC = () => {
                         <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/70">
                           Memory found
                         </span>
-                        <span className="inline-flex items-center gap-2 rounded-full border border-pink-soft/20 bg-pink-soft/5 px-4 py-2 text-xs uppercase tracking-[0.3em] text-pink-soft">
-                          Cinematic reveal
-                        </span>
+                        
                       </div>
                     </div>
                   </div>

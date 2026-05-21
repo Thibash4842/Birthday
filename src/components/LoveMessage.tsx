@@ -96,6 +96,24 @@ export const LoveMessage: React.FC = () => {
         >
           May every day become special for you.
         </p>
+        <p
+          ref={line3Ref}
+          className="font-script-love text-2.5xl md:text-4xl text-white font-light tracking-wide leading-snug drop-shadow-[0_0_15px_rgba(255,215,0,0.15)]"
+        >
+          Every moment with you is a beautiful memory ✨, and today, I just want to celebrate YOU 🎂 – the light you are 🌟, the love you give ❤️, and the joy you bring into my world 😊
+        </p>
+        <p
+          ref={line3Ref}
+          className="font-script-love text-2.5xl md:text-4xl text-white font-light tracking-wide leading-snug drop-shadow-[0_0_15px_rgba(255,215,0,0.15)]"
+        >
+          On your special day 🎈, I wish you endless happiness 😄, good health 💪, and all the success your heart desires 🌈. May all your dreams come true 🌠, and may this year bring you even more love 💕, laughter 😂, and beautiful moments 🌸.
+        </p>
+        <p
+          ref={line3Ref}
+          className="font-script-love text-2.5xl md:text-4xl text-white font-light tracking-wide leading-snug drop-shadow-[0_0_15px_rgba(255,215,0,0.15)]"
+        >
+         Thank you for being you 🙏... for your kindness 🤍, your warmth 🔥, and your beautiful heart 💝. I feel so lucky 🍀 to have you in my life.
+        </p>
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ interface CinematicLoaderProps {
 export const CinematicLoader: React.FC<CinematicLoaderProps> = ({ onBegin }) => {
   const [showButton, setShowButton] = useState(false);
 
-  const text = "A special day for a special person…";
+  const text = "A special day because someone special was born today… ❤️";
   
   // Staggered word animation
   const words = text.split(" ");

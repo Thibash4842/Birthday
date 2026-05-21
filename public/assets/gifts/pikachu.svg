@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="pikachuBody" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffde37"/>
+      <stop offset="100%" stop-color="#f9b700"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="44" fill="#ffdd5e"/>
+  <circle cx="60" cy="56" r="35" fill="url(#pikachuBody)"/>
+  <ellipse cx="42" cy="50" rx="8" ry="11" fill="#2a1a13"/>
+  <ellipse cx="78" cy="50" rx="8" ry="11" fill="#2a1a13"/>
+  <path d="M44 76c6 10 26 10 32 0" fill="none" stroke="#2a1a13" stroke-width="4" stroke-linecap="round"/>
+  <rect x="18" y="18" width="16" height="24" rx="8" fill="#ffdd5e"/>
+  <rect x="86" y="18" width="16" height="24" rx="8" fill="#ffdd5e"/>
+  <path d="M14 94c20 10 92 10 92 0" fill="#ffdd5e"/>
+</svg>

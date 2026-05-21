@@ -90,13 +90,13 @@ export const HeroSection: React.FC = () => {
           ref={titleRef}
           className="font-serif-elegant text-5xl md:text-8xl font-bold tracking-tight text-white mb-6 uppercase white-glow-text"
         >
-          Happy Birthday ❤️
+          Happy <br className="lg:hidden" />Birthday ❤️
         </h1>
 
         <div className="flex flex-col items-center">
           <span
             ref={nameRef}
-            className="font-serif-elegant text-2xl md:text-4xl text-gold font-light tracking-wide gold-glow-text mb-4"
+            className="font-serif-elegant text-2xl md:text-4xl lg:text-5xl text-gold font-light tracking-wide gold-glow-text mb-4"
           >
             KAMALI
           </span>

@@ -117,6 +117,37 @@ html, body {
   pointer-events: none;
 }
 
+.gift-universe-section {
+  background: radial-gradient(circle at top, rgba(255, 228, 244, 0.18), transparent 26%),
+    radial-gradient(circle at 20% 20%, rgba(255, 182, 193, 0.12), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(255, 230, 250, 0.16), transparent 22%),
+    #06030c;
+}
+
+.gift-card {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.gift-card:hover {
+  transform: translateY(-12px) rotateX(1deg) rotateY(-2deg);
+}
+
+.animate-gift-glow {
+  animation: glow 4.6s ease-in-out infinite;
+}
+
+@keyframes gift-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(2deg); }
+}
+
+@keyframes gift-glow {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
 /* Scroll Trigger reveals */
 .reveal-clip {
   clip-path: inset(100% 0 0 0);

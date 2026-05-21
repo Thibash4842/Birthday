@@ -11,6 +11,7 @@ import { HeroSection } from './components/HeroSection';
 import { MemoryTimeline } from './components/MemoryTimeline';
 import { LoveMessage } from './components/LoveMessage';
 import { BirthdayCakeSurprise } from './components/BirthdayCakeSurprise';
+import { BirthdayGiftUniverse } from './components/BirthdayGiftUniverse';
 // import { StarCountdown } from './components/StarCountdown';
 import { FinalSurprise } from './components/FinalSurprise';
 
@@ -103,6 +104,9 @@ function App() {
 
           {/* Birthday Cake Surprise Section */}
           <BirthdayCakeSurprise />
+
+          {/* Birthday Gift Universe Section */}
+          <BirthdayGiftUniverse />
 
           {/* Interactive Stars & Countdown */}
           {/* <StarCountdown /> */}

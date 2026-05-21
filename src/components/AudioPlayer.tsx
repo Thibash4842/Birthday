@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
+import audioFile from '../assets/gifts/Happy Birthday (Background Score)(MP3_160K).mp3';
 
 interface AudioPlayerProps {
   isPlaying: boolean;
@@ -17,7 +18,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({ isPlaying, onTogglePla
 
   // Initialize Audio
   useEffect(() => {
-    const audio = new Audio('https://upload.wikimedia.org/wikipedia/commons/d/dd/Gymnopedie_No._1.mp3');
+    const audio = new Audio(audioFile);
     audio.loop = true;
     audio.volume = 0.5;
     audioRef.current = audio;
