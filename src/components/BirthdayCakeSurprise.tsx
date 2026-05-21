@@ -473,31 +473,6 @@ export const BirthdayCakeSurprise: React.FC = () => {
         </div>
 
         <AnimatePresence>
-          {stage !== 'intro' && (
-            <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 16 }}
-              transition={{ duration: 0.9, ease: 'easeOut' }}
-              className="mt-12 grid w-full gap-4 sm:grid-cols-3"
-            >
-              <div className="rounded-[28px] border border-white/10 bg-white/5 p-5 text-center backdrop-blur-xl">
-                <h3 className="text-base font-semibold text-white">Fairy lights</h3>
-                <p className="mt-2 text-sm text-white/70">Glowing lanterns weave the sky.</p>
-              </div>
-              <div className="rounded-[28px] border border-white/10 bg-white/5 p-5 text-center backdrop-blur-xl">
-                <h3 className="text-base font-semibold text-white">Butterflies</h3>
-                <p className="mt-2 text-sm text-white/70">Soft wings drift around the cake.</p>
-              </div>
-              <div className="rounded-[28px] border border-white/10 bg-white/5 p-5 text-center backdrop-blur-xl">
-                <h3 className="text-base font-semibold text-white">Dreamy garden</h3>
-                <p className="mt-2 text-sm text-white/70">Moonlit roses bloom gently.</p>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <AnimatePresence>
           {(stage === 'reveal' || stage === 'complete') && (
             <motion.div
               initial={{ opacity: 0, scale: 0.96 }}
@@ -506,7 +481,6 @@ export const BirthdayCakeSurprise: React.FC = () => {
               className="mt-14 rounded-[36px] border border-pink-300/15 bg-white/5 px-6 py-8 shadow-[0_40px_120px_rgba(246,147,255,0.09)] backdrop-blur-xl"
             >
               <div className="mx-auto max-w-2xl text-center">
-                <p className="text-sm uppercase tracking-[0.35em] text-pink-200/80">Magical surprise revealed</p>
                 <h3 className="mt-5 text-4xl font-serif-elegant leading-tight text-white sm:text-5xl">
                   Happy Birthday <span className="text-pink-300">❤️</span>
                 </h3>
@@ -533,13 +507,6 @@ export const BirthdayCakeSurprise: React.FC = () => {
               <div className="flex items-center gap-3 rounded-full bg-white/10 px-4 py-2 text-sm text-white/80 backdrop-blur-xl ring-1 ring-white/10">
                 <Sparkles className="h-4 w-4 text-pink-200" />
                 Thank you for existing <span className="text-pink-200">❤️</span>
-              </div>
-              <div className="mt-4 grid gap-3 sm:grid-cols-3">
-                {['Butterflies', 'Roses', 'Stars'].map((label) => (
-                  <div key={label} className="rounded-3xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/80 backdrop-blur-xl">
-                    {label} bloom softly
-                  </div>
-                ))}
               </div>
             </motion.div>
           )}
