@@ -241,7 +241,7 @@ export const BirthdayGiftUniverse: React.FC = () => {
                 transition={{ duration: 1.1, delay: 0.25, ease: [0.22, 0.61, 0.36, 1] }}
                 className="text-md mx-auto max-w-2xl leading-8 text-pink-100/90"
               >
-                Choose a gift and let the moonlight, butterflies, roses, and cute magic reveal what I tucked inside just for you.
+                Pick one of the 3 gifts 🎁 Open it to unlock a hidden surprise wrapped in moonlight, butterflies, roses, and a little magic… 🌙🦋🌹✨
               </motion.p>
             )}
           </AnimatePresence>

@@ -202,6 +202,13 @@ export const BirthdayCakeSurprise: React.FC = () => {
       const height = canvas.clientHeight;
       renderer.setSize(width, height, false);
       camera.aspect = width / height;
+      if (width < 640) {
+        camera.fov = 32;
+        camera.position.set(0, 1.8, 7.2);
+      } else {
+        camera.fov = 35;
+        camera.position.set(0, 2.1, 6.2);
+      }
       camera.updateProjectionMatrix();
     };
 
@@ -409,7 +416,7 @@ export const BirthdayCakeSurprise: React.FC = () => {
             <div className="absolute inset-x-0 top-0 h-28 bg-[radial-gradient(circle,_rgba(255,255,255,0.18),transparent_45%)]" />
 
             <div className="relative flex flex-col items-center justify-center gap-6 py-6">
-              <div className="relative h-[420px] w-full max-w-4xl rounded-[28px] border border-white/10 bg-[#051026] shadow-[0_30px_80px_rgba(0,0,0,0.25)] md:h-[520px]">
+              <div className="relative h-[320px] sm:h-[420px] w-full max-w-full rounded-[28px] border border-white/10 bg-[#051026] shadow-[0_30px_80px_rgba(0,0,0,0.25)] md:h-[520px]">
                 <canvas ref={canvasRef} className="h-full w-full" />
                 <div
                   className="absolute inset-0"
