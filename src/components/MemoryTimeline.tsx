@@ -2,14 +2,6 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import gsap from 'gsap';
 import * as THREE from 'three';
-import img1 from '../assets/gallary/001.jpg';
-import img2 from '../assets/gallary/002.jpg';
-import img3 from '../assets/gallary/003.jpg';
-import img4 from '../assets/gallary/004.jpeg';
-import img5 from '../assets/gallary/005.jpg';
-import img6 from '../assets/gallary/006.jpg';
-import img7 from '../assets/gallary/007.jpeg';
-
 
 interface StarMemory {
   id: number;
@@ -38,7 +30,7 @@ const starMemories: StarMemory[] = [
     id: 1,
     title: 'That Cute Smile 🩷',
     caption: 'Your smile deserves to stay forever, because somewhere along the way… it became my favorite place to find happiness. ✨❤️',
-    image: img1,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory1_kyh8lq.jpg",
     label: 'Cutie Smile',
     x: 14,
     y: 26,
@@ -49,7 +41,7 @@ const starMemories: StarMemory[] = [
     id: 2,
     title: 'Little Sunshine ☀️',
     caption: 'Some people carry happiness without knowing, and you unknowingly became the place where my heart feels safest. ✨❤️',
-    image: img2,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory2_kyh8lq.jpg",
     label: 'Sunshine Girl',
     x: 28,
     y: 58,
@@ -60,7 +52,7 @@ const starMemories: StarMemory[] = [
     id: 3,
     title: 'Princess Moment 👑',
     caption: 'This photo looks like happiness in human form, carrying the smile that quietly became my favorite part of every day. ✨❤️',
-    image: img3,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory3_kyh8lq.jpg",
     label: 'Pretty Princess',
     x: 62,
     y: 18,
@@ -71,7 +63,7 @@ const starMemories: StarMemory[] = [
     id: 4,
     title: 'Butterfly Energy 🦋',
     caption: 'This photo looks like happiness in human form, carrying a smile that makes everything feel brighter. ✨💖',
-    image: img4,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory4_kyh8lq.jpg",
     label: 'Butterfly Girl',
     x: 78,
     y: 56,
@@ -82,7 +74,7 @@ const starMemories: StarMemory[] = [
     id: 5,
     title: 'Moonlight Beauty 🌙',
     caption: 'Even stars would pause for this smile, but my heart stayed… because it found something worth loving forever. ✨❤️',
-    image: img5,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory5_kyh8lq.jpg",
     label: 'Moonlight',
     x: 48,
     y: 42,
@@ -93,7 +85,7 @@ const starMemories: StarMemory[] = [
     id: 6,
     title: 'Pikachu Energy ⚡',
     caption: 'Tiny smile. Huge happiness… and somewhere between those smiles, my heart quietly chose you forever. ✨❤️',
-    image: img6,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory6_kyh8lq.jpg",
     label: 'Cute Spark',
     x: 18,
     y: 74,
@@ -104,7 +96,7 @@ const starMemories: StarMemory[] = [
     id: 7,
     title: 'Birthday Angel 🎂✨',
     caption: 'May your smile stay forever, and your heart stay light… because if I ever prayed for something, it would always be your happiness. ❤️✨',
-    image: img7,
+    image: "https://res.cloudinary.com/dza7lstvk/image/upload/v1709354415/memory7_kyh8lq.jpg",
     label: 'Special Girl',
     x: 82,
     y: 32,

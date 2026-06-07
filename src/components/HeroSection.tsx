@@ -98,7 +98,7 @@ export const HeroSection: React.FC = () => {
             ref={nameRef}
             className="font-serif-elegant text-2xl md:text-4xl lg:text-5xl text-gold font-light tracking-wide gold-glow-text mb-4"
           >
-            KAMALI
+            [Name]
           </span>
           <p
             ref={subtitleRef}
